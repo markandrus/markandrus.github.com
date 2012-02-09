@@ -24,7 +24,7 @@ When I chose to combine these sequences by hand, I started compositing them in A
 I doubt H264 can ever really encode these in an attractive way that loads quickly. Case in point, the above video consistently loads painfully slow for me (at least at `720p`).
 
 Also, I’ve been debating whether or not to release this code, since I consider it more of a tool for my own video art production. But I decided why not release the code I have been hacking at for a while now. It’s not clean or elegant because I don’t care for it to be right now, but if you want to play with it have at it:
-* [aag.zip](/f/aag.zip)
+* [aag.zip](/files/aag.zip)
 You will also need:
 * [Filters](http://www.jhlabs.com/ip/filters/Filters.zip) from JH Labs.
 * [Parallel Java Library](http://www.cs.rit.edu/~ark/pj.shtml#download) from RIT.
