@@ -163,6 +163,10 @@ ul.posts {
 
 }
 
+	#post img {
+		max-width: 100%;
+	}
+
   /* standard */
 
   #post pre {
