@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Art and Code
-tagline:
+tagline: 
 author :
   name : Mark Andrus Roberts
   email : markandrusroberts+blog@gmail.com
