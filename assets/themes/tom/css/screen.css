@@ -17,8 +17,9 @@ html, body {
 
 body {
   background: white url(/images/kaprekar_dither.png);
+	background-attachment: fixed;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
+  font-size: small;
   text-align: center;
 }
 
@@ -86,6 +87,7 @@ ul.posts {
   line-height: 1.5em;
 	background: white;
 	padding: 1em;
+	box-shadow: 0.125em 0.125em 1em black
 }
 
 .title {
