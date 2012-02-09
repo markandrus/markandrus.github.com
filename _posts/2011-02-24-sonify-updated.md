@@ -7,7 +7,7 @@ date: 2011-02-24 17:45:50
 I made a couple of revisions to Sonify over the last week. Most significantly I replaced GD Library with [SDL](http://www.libsdl.org/). Now Sonify can draw decoded audio into a window and resize its output using [nearest-neighbor scaling](http://www.libsdl.org/libraries.php?match_id=1714.)—preserve those pixels!
 
 <div class="caption">
-<img src="/i/sonify.png" alt="Sonify with JackPilot" />
+<img src="/images/sonify.png" alt="Sonify with JackPilot" />
 <p>Note: The screenshot above also shows JackPilot—part of the <a href="http://www.jackosx.com/">JACK OS X</a> project.</p>
 </div>
 
@@ -16,7 +16,7 @@ Sonify uses Pascal Getreuer’s [colorspace](http://www.math.ucla.edu/~getreuer/
 Compare the image above to the two below: the bottom left graphic is the source image; the screenshot above shows the image reconstructed using sine waves in the frequency range of `100-1100 Hz`; and the bottom right screenshot shows the image reconstructed using square waves over the same frequency range. The two instances of Sonify were launched using `./sonify sfy color.png 1000 100 10 sin 2` and `./sonify sfy color.png 1000 100 10 sq 2`.
 
 <div class="caption">
-<img src="/i/sonify_compare.png" alt="Left: source image; Right: square wave reconstruction mapped from 100-1100 Hz." />
+<img src="/images/sonify_compare.png" alt="Left: source image; Right: square wave reconstruction mapped from 100-1100 Hz." />
 <p>Left: source image; Right: square wave reconstruction mapped from 100-1100 Hz.</p>
 </div>
 
@@ -31,6 +31,6 @@ I was working on a Haskell program for a lab two weeks ago when I accidentally `
 
 Finally, some glitchy images I made while feeding Sonify a wavering synthesizer signal from Ableton Live:
 
-<img src="/i/sonify_synth.png" alt="Sonify glitches" />
+<img src="/images/sonify_synth.png" alt="Sonify glitches" />
 
 It’s fun to see what kind of patterns emerge out of this system.

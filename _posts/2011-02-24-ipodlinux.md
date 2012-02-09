@@ -8,7 +8,7 @@ What is iPodLinux? Before the iPod Touch, iPhone, Android, and others, iPL offer
 Below is a screenshot of Podzilla2, a graphical shell for iPodLinux, running my module Drum Machine. Drum Machine is coded in C, and provides 4 samples, 4 patterns, and 32 steps. Like other Podzilla modules, it is generally compiled into the main executable along with other modules.
 
 <div class="caption">
-<img src="/i/podzilla2.png" alt="Podzilla 2 with Drum Machine" />
+<img src="/images/podzilla2.png" alt="Podzilla 2 with Drum Machine" />
 <p>Podzilla2 emulator running Drum Machine</p>
 </div>
 
