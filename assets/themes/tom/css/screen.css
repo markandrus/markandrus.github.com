@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background: white url(/images/kaprekar_dither.png);
+  background: white url(/images/kaprekar.png);
 	background-attachment: fixed;
   font: 13.34px helvetica, arial, clean, sans-serif;
   font-size: small;
