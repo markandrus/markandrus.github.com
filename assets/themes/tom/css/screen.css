@@ -15,12 +15,15 @@ html, body {
   height: 100%;
 }
 
+html {
+}
+
 body {
-  background: white url(/images/kaprekar_dither.png);
-	background-attachment: fixed;
   font: 13.34px helvetica, arial, clean, sans-serif;
   font-size: small;
   text-align: center;
+	padding-top: 4em;
+  background: white url(/images/kaprekar2.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,7 +90,6 @@ ul.posts {
   line-height: 1.5em;
 	background: white;
 	padding: 1em;
-	box-shadow: 0.125em 0.125em 1em black
 }
 
 .title {
@@ -169,15 +171,22 @@ ul.posts {
 
   /* standard */
 
+	#post .highlight, div.caption {
+		margin-bottom: 3em !important;
+	}
+
   #post pre {
     border: 1px solid #ddd;
     background-color: #eee;
-    padding: 0 .4em;
+		padding: 1em !important;
+		margin-bottom: 2em;
   }
 
   #post ul,
   #post ol {
     margin-left: 1.35em;
+		margin-bottom: 1em;
+		margin-top: 1em;
   }
 
   #post code {
@@ -217,11 +226,17 @@ ul.posts {
 div.caption {
 	border: 1px solid #ccc;
 	text-align: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+p {
+	margin-bottom: 1em !important;
 }
 
 div.caption p {
 	padding: 0.5em;
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 	background: #EEE;
 	border-top: 1px solid #DDD;
 	margin-bottom: 0;
@@ -231,6 +246,97 @@ div.caption p {
 
 pre {
 	overflow: auto;
-	margin-top: 1em;
+	margin-top: 1em !important;
+	margin-bottom: 1em !important;
+	border-radius: 0.5em;
+}
+
+.twoway {
+	text-align: left;
+	background: white;
+	padding: 1em;
+}
+
+.content.twoway {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#post h1, #post h2 {
+	margin-top: 2em;
 	margin-bottom: 1em;
+}
+
+#post h1:first-child, #post h2:first-child {
+	margin-top: 0;
+}
+
+#post h1:first-child + p.meta {
+	margin-bottom: 2em;
+	margin-top: -1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+}
+
+header {
+	padding-top: 1em !important;
+	padding-bottom: 0.5em !important;
+	margin-bottom: 2em !important;
+	text-align: left;
+}
+
+#post h3 {
+	margin-top: 2em !important;
+}
+
+#post h2 + h3 {
+	margin-top: -2em !important;
+}
+
+header a {
+	display: inline-block;
+	padding: 0.5em 1em;
+	margin-left: 0.5em;
+	background: #eee;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+	position: relative;
+	left: 0.5em;
+	border-radius: 0.5em;
+}
+
+header a:hover {
+	background: black;
+	color: white !important;
+}
+
+header a:first-child {
+}
+
+footer div {
+	width: 30%;
+	float: left;
+	margin-left: 1em;
+}
+
+footer {
+	padding-top: 2em;
+	text-align: left;
+	font-size: 0.75em;
+}
+
+footer img {
+	float: right;
+	width: 4.5em;
+}
+
+br.clear {
+	clear: both;
+}
+
+#page {
+	min-height: 100%;
+	margin-top: 4em;
+	background: white;
 }
