@@ -210,3 +210,18 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+/* Other */
+div.caption {
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+div.caption p {
+	margin-bottom: 0;
+	background: #EEE;
+	border-top: 1px solid #DDD;
+	margin-bottom: 0;
+	color: #777;
+	text-align: left;
+}
