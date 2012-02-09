@@ -218,6 +218,7 @@ div.caption {
 }
 
 div.caption p {
+	padding: 0.5em;
 	margin-bottom: 0;
 	background: #EEE;
 	border-top: 1px solid #DDD;
